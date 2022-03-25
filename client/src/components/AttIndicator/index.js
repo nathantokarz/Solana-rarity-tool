@@ -1,4 +1,3 @@
-import react, { useState, useEffect } from "react";
 import "./index.css";
 const format = (value) => {
   return Math.round(value * 100) / 100;

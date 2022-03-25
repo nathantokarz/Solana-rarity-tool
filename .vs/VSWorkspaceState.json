@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\public",
+    "\\client\\src",
+    "\\client\\src\\components",
+    "\\client\\src\\components\\AttIndicator",
+    "\\client\\src\\hooks",
+    "\\client\\src\\views",
+    "\\client\\src\\views\\Home",
+    "\\server"
+  ],
+  "SelectedNode": "\\client\\src\\views",
+  "PreviewInSolutionExplorer": false
+}

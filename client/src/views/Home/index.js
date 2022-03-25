@@ -17,6 +17,7 @@ export function HomeView() {
   const inputId = useRef(null);
   const [item_info, setItemInfo] = useState({});
   const [token_id, setTokenId] = useState("");
+  const [rankname, setRankname] = useState("");
   const [rank, setRank] = useState(1);
 
   const getTokenById = useCallback(async () => {
@@ -28,6 +29,7 @@ export function HomeView() {
     console.log("id response", response);
     setItemInfo(response.data.item);
     setRank(response.data.item.rank + 1);
+    setRankname(response.data.item.rankname);
   }, [token_id]);
 
   const getTokenByRank = useCallback(async () => {
@@ -39,6 +41,7 @@ export function HomeView() {
     console.log("rank response", response);
     setItemInfo(response.data.item);
     setTokenId(response.data.item.custom_id);
+    setRankname(response.data.item.rankname);
   }, [rank]);
 
   //handle rank change event
@@ -84,25 +87,44 @@ export function HomeView() {
     }
   }, [token_id]);
 
+   {/* let x = rank;
+
+      if ((0 <= x) && (x < 41)) {
+        rankname = "Mythic" 
+        if ((42 <= x) && (x < 168)) {
+            rankname = "Legendary"
+               if ((169 <= x) && (x < 420)) {
+                rankname = "Rare";
+                    if ((421 <= x) && (x < 1680)) {
+                    rankname = "Uncommon";
+                          if ((1681 <= x) && (x < 4201)); { rankname = "Common"; }
+                }
+            }
+        }
+    }*/}
+         
+
+ 
+
   const Header = (
     <Box sx={{ display: "flex", padding: "5px 5px 0px 10px" }}>
       <Avatar
         alt="Avatar"
-        src="/img/logo.png"
-        sx={{ width: 150, height: 70 }}
+        src="/img/logotool.png"
+        sx={{ width: 250, height: 70}}
       ></Avatar>
     </Box>
   );
   return (
     <Paper sx={{ mt: 10 }}>
       <Grid container spacing={0}>
-        <Grid item md={6} xs={12} style={{ background: "#ad1" }}>
+        <Grid item md={6} xs={12} style={{ background: "black" }}>
           {Header}
         </Grid>
         <Grid
           container
           item
-          sx={{ display: "flex", background: "#ad1" }}
+          sx={{ display: "flex", background: "black" }}
           md={6}
           xs={12}
         >
@@ -114,7 +136,7 @@ export function HomeView() {
           </Grid>
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
-              Frenchy
+             Warsome Wizards NFT
             </Typography>
             <input value={token_id} onChange={handleIdChange} ref={inputId} />
           </Grid>
@@ -126,7 +148,7 @@ export function HomeView() {
               width="100%"
               alt="Loading..."
             />
-            <span className="nft-id">{token_id ? "#" + token_id : ""} </span>
+            <span className="nft-id">{rankname ? rankname : ""} </span>
             <span className="nft-rank">{rank ? "RANK " + rank : ""} </span>
             {/* <span className="nft-name"> MARTU </span> */}
           </Box>
@@ -142,7 +164,7 @@ export function HomeView() {
                 target="_blank"
                 href={item_info.token_add? "https://solanart.io/search/?token=" + item_info.token_add:''}
               >
-                {item_info.price} SOL on Solanart
+                {item_info.price} SOL on Hyperspace
               </Button>
             </Box>
           )}
@@ -151,7 +173,7 @@ export function HomeView() {
           <img
             src="/img/symbol.png"
             width="100%"
-            minHeight="40vh"
+            minHeight="40%"
             alt="Loading..."
             className="attr-back-img"
           />
