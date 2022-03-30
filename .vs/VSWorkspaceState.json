@@ -1,16 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\api",
     "\\client",
-    "\\client\\public",
+    "\\client\\public\\img",
     "\\client\\src",
-    "\\client\\src\\components",
-    "\\client\\src\\components\\AttIndicator",
-    "\\client\\src\\hooks",
-    "\\client\\src\\views",
-    "\\client\\src\\views\\Home",
-    "\\server"
+    "\\client\\src\\components\\AttIndicator"
   ],
-  "SelectedNode": "\\client\\src\\views",
+  "SelectedNode": "\\client\\package.json",
   "PreviewInSolutionExplorer": false
 }
