@@ -9,7 +9,7 @@ require("./global.js");
 
 
 (async () => {
-  const PORT = process.env.PORT || 3001;
+  const PORT = process.env.PORT || 8080;
   const app = express();
   
   app.use(express.urlencoded());
@@ -37,7 +37,7 @@ require("./global.js");
   app.post("/token_by_id", (req, res) => {
     let id = req.body.id;
     let ret = {};
-    console.log("toekn by id", id);
+    console.log("token by id", id);
     let item = util.getTokenById(id);
     ret.item = item;
     ret.success = item ? true : false;
