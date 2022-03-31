@@ -175,7 +175,7 @@ export function HomeView() {
           <img
             src="/img/symbol.png"
             width="100%"
-            minHeight="40%"
+            minHeight="40px"
             alt="Loading..."
             className="attr-back-img"
           />
