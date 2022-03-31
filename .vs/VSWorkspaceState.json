@@ -3,10 +3,8 @@
     "",
     "\\api",
     "\\client",
-    "\\client\\public\\img",
-    "\\client\\src",
-    "\\client\\src\\components\\AttIndicator"
+    "\\client\\src"
   ],
-  "SelectedNode": "\\client\\package.json",
+  "SelectedNode": "\\client\\public",
   "PreviewInSolutionExplorer": false
 }
