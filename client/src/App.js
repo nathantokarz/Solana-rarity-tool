@@ -12,7 +12,7 @@ function App() {
                         alt="Avatar"
                         src="/img/logo.png"
                         position="flex"
-                        sx={{ width: 180, height: 100, padding: "0px 0px 0px 10px" }}
+                        sx={{ width: 180, height: 100, padding: "0px 0px 0px 0px" }}
                     ></Avatar>
                     <Toolbar position="relative">
                         <Link href="https://warsomewizards.com/" underline="hover" color="white" padding="0 10px"><b>Home</b></Link>
