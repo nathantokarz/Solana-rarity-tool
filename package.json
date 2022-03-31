@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "start_dev": "NODE_ENV=development node server/index.js",
-    "build": "cd client && yarn build",
+    "build": "cd client && yarn start",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix client && npm run build --prefix client"
   },
   "engines": {
-    "node": "^14.9"
+    "node": "14.9"
   },
   "keywords": [],
   "author": "",
