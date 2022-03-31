@@ -109,7 +109,7 @@ export function HomeView() {
   const Header = (
     <Box sx={{ display: "flex", padding: "5px 5px 0px 10px" }}>
        <img
-         src="/img/symbol.png"
+         src="/img/logo.png"
          className="attr-back-img"
        />
     </Box>
