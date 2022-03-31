@@ -12,12 +12,12 @@ function App() {
                         alt="Avatar"
                         src="/img/logo.png"
                         position="flex"
-                        sx={{ width: 150, height: 100, padding: "0px 0px 0px 10px" }}
+                        sx={{ width: 180, height: 100, padding: "0px 0px 0px 10px" }}
                     ></Avatar>
-                    <Toolbar position="right">
+                    <Toolbar position="relative">
                         <Link href="https://warsomewizards.com/" underline="hover" color="white" padding="0 25px"><b>Home</b></Link>
                         <Link href="https://warsomewizards.com/team/" underline="hover" color="white" padding="0 25px"><b>Zuse</b></Link>
-                        <Link href="https://warsomewizards.com/gallery/" underline="hover" color="white" padding="0 25px"><b>UGA-Mart</b></Link>
+                        <Link href="https://ugamart.app/" underline="hover" color="white" padding="0 25px"><b>UGA-Mart</b></Link>
                     </Toolbar>
                 </Box>
             </AppBar>
