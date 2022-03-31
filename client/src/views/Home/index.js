@@ -130,7 +130,7 @@ export function HomeView() {
         >
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
-              Ra
+              Rank
             </Typography>
             <input value={rank} onChange={handleRankChange} ref={inputRank} />
           </Grid>
