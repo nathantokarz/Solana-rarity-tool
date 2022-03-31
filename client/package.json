@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001",
   "engines": {
-    "node": "14.9"
+    "node": "14.19.0"
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
