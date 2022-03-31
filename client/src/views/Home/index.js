@@ -130,13 +130,13 @@ export function HomeView() {
         >
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
-              Rarity
+              Ra
             </Typography>
             <input value={rank} onChange={handleRankChange} ref={inputRank} />
           </Grid>
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
-             Warsome Wizards NFT
+             UGA Nation NFT
             </Typography>
             <input value={token_id} onChange={handleIdChange} ref={inputId} />
           </Grid>
@@ -148,6 +148,7 @@ export function HomeView() {
               width="100%"
               alt="Loading..."
             />
+            {/*<span className="nft-id">{rankname ? rankname : ""} </span>*/}
             <span className="nft-id">{rankname ? rankname : ""} </span>
             <span className="nft-rank">{rank ? "RANK " + rank : ""} </span>
             {/* <span className="nft-name"> MARTU </span> */}
