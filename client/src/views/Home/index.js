@@ -108,11 +108,10 @@ export function HomeView() {
 
   const Header = (
     <Box sx={{ display: "flex", padding: "5px 5px 0px 10px" }}>
-      <Avatar
-        alt="Avatar"
-        src="/img/logotool.png"
-        sx={{ width: 250, height: 70}}
-      ></Avatar>
+       <img
+         src="/img/symbol.png"
+         className="attr-back-img"
+       />
     </Box>
   );
   return (
