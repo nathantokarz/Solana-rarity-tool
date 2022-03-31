@@ -19,10 +19,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "start",
-    "build": "build",
-    "test": "test",
-    "eject": "eject"
+    "start": "yarn start",
+    "build": "yarn build",
+    "test": "yarn test",
+    "eject": "yarn eject"
   },
   "eslintConfig": {
     "extends": [
