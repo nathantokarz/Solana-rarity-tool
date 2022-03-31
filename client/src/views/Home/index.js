@@ -107,11 +107,13 @@ export function HomeView() {
  
 
   const Header = (
-    <Box sx={{ display: "flex", padding: "5px 5px 0px 10px", position: "center" }}>
-       <img
+    <Box sx={{ display: "flex", padding: "5px 5px 0px 10px", justifyContent: "center", }}>
+       <Avatar
          src="/img/logo.png"
-         sx={{ width: 100, height: 70}}
-       />
+         sx={{ width: 250, height: 70}}
+         alt="Loading..."
+         position= "center"
+       ></Avatar>
     </Box>
   );
   return (
