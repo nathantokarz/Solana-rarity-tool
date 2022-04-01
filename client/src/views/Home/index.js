@@ -118,7 +118,7 @@ export function HomeView() {
   );
   return (
     <Paper sx={{ mt: 10 }}>
-      <Grid container spacing={0} style={{ background: "transparent" }}>
+      <Grid container spacing={0} style={{ backgroundColor: 'transparent' }}>
         <Grid item md={6} xs={12} style={{ background: "none" }}>
           {Header}
         </Grid>
