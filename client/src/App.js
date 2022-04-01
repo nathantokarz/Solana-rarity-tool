@@ -15,8 +15,8 @@ function App() {
                         sx={{ width: 180, height: 100, padding: "0px 0px 0px 0px" }}
                     ></Avatar>
                     <Toolbar position="relative">
-                        <Link href="https://warsomewizards.com/" underline="hover" color="black" padding="0 10px"><b>Home</b></Link>
-                        <Link href="https://warsomewizards.com/team/" underline="hover" color="black" padding="0 10px"><b>Zuse</b></Link>
+                        <Link href="https://discord.gg/Q4TQkbTH8Z" underline="hover" color="black" padding="0 10px"><b>Discord</b></Link>
+                        <Link href="https://zuse.market/launchpad" underline="hover" color="black" padding="0 10px"><b>Zuse</b></Link>
                         <Link href="https://ugamart.app/" underline="hover" color="black" padding="0 10px"><b>UGA-Mart</b></Link>
                     </Toolbar>
                 </Box>
