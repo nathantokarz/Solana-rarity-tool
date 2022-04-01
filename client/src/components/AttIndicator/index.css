@@ -10,7 +10,8 @@
 
 .att-name
 {
-    background: #1976d2;
+    /*Background: #1976d2; */
+    background: black;
     width:35%;
     color: white;
     display:flex;
