@@ -6,7 +6,7 @@ const theme = createTheme();
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <AppBar style={{ background: 'white', opacity: "0.8" }} position="relative">
+            <AppBar style={{ background: 'white', opacity: "0.85" }} position="relative">
                 <Box sx={{ display: "flex", padding: "0px 20px 0px 20px", justifyContent: "space-between" }}>
                     <Avatar
                         alt="Avatar"
