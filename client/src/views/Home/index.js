@@ -118,7 +118,7 @@ export function HomeView() {
   );
   return (
     <Paper sx={{ mt: 10 }}>
-      <Grid container spacing={0}>
+          <Grid container spacing={0} style={{ background: "none" }}>
         <Grid item md={6} xs={12} style={{ background: "none" }}>
           {Header}
         </Grid>
@@ -133,7 +133,7 @@ export function HomeView() {
             <Typography className="rank-id">
               Rank
             </Typography>
-            <input value={rank} onChange={handleRankChange} ref={inputRank} position={center} />
+            <input value={rank} onChange={handleRankChange} ref={inputRank} />
           </Grid>
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
