@@ -132,15 +132,15 @@ export function HomeView() {
         >
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
-              Rank
-            </Typography>
-            <input value={rank} onChange={handleRankChange} ref={inputRank} />
-          </Grid>
-          <Grid item xs={6} sx={{ padding: "5px" }}>
-            <Typography className="rank-id">
              UGA Nation NFT
             </Typography>
             <input value={token_id} onChange={handleIdChange} ref={inputId} />
+          </Grid>
+          <Grid item xs={6} sx={{ padding: "5px" }}>
+            <Typography className="rank-id">
+              Rank
+            </Typography>
+            <input value={rank} onChange={handleRankChange} ref={inputRank} />
           </Grid>
         </Grid>
         <Grid item xs={12} md={6} className="left-part">
