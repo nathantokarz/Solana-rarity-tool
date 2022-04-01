@@ -107,7 +107,7 @@ export function HomeView() {
  
 
   const Header = (
-    <Box sx={{ display: "flex", padding: "5px 5px 0px 10px", justifyContent: "center", background: "black" }}>
+    <Box sx={{ display: "flex", padding: "5px 5px 0px 10px", justifyContent: "center", background: "none" }}>
        <Avatar
          src="/img/rarityheader.png"
          sx={{ width: 250, height: 70}}
@@ -118,7 +118,7 @@ export function HomeView() {
   );
   return (
     <Paper sx={{ mt: 10 }}>
-          <Grid container spacing={0} style={{ background: "none" }}>
+      <Grid container spacing={0} style={{ background: "transparent" }}>
         <Grid item md={6} xs={12} style={{ background: "none" }}>
           {Header}
         </Grid>
