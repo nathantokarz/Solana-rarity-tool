@@ -154,22 +154,6 @@ export function HomeView() {
             <span className="nft-rank">{rank ? "RANK " + rank : ""} </span>
             {/* <span className="nft-name"> MARTU </span> */}
           </Box>
-          {item_info && item_info.token_add && (
-            <Box
-              sx={{ padding: "10px", paddingTop: "0px", marginTop: "-10px" }}
-            >
-              <Button
-                variant="contained"
-                sx={{ width: "100%", mb: 0 }}
-                startIcon={<ShoppingCartIcon />}
-                color="success"
-                target="_blank"
-                href={item_info.token_add? "https://solanart.io/search/?token=" + item_info.token_add:''}
-              >
-                {item_info.price} SOL on Hyperspace
-              </Button>
-            </Box>
-          )}
         </Grid>
         <Grid item xs={12} md={6} className="attr-container">
           <img
