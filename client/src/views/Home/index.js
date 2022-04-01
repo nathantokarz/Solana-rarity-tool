@@ -119,7 +119,7 @@ export function HomeView() {
   return (
       <Paper sx={{ mt: 10 }} style={{ backgroundColor: 'transparent', borderColor: 'none' }}>
       <Grid container spacing={0} style={{ display: 'flex', backgroundColor: 'none'}}>
-              <Grid item md={6} xs={12} style={{ background: "rgba(255,255,255, 0.6)" }}>
+        <Grid item md={6} xs={12} style={{ background: "rgba(255,255,255, 0.6)" }}>
           {Header}
         </Grid>
         <Grid
@@ -128,6 +128,7 @@ export function HomeView() {
           sx={{ display: "flex", background: "none", justifyContent: "center", }}
           md={6}
           xs={12}
+          style={{background: "rgba(255,255,255, 0.6)"}}
         >
           <Grid item xs={6} sx={{ padding: "5px" }}>
             <Typography className="rank-id">
