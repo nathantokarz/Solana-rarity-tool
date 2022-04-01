@@ -6,7 +6,7 @@ const theme = createTheme();
 function App() {
     return (
         <ThemeProvider theme={theme}>
-            <AppBar style={{ background: 'black', opacity: "0.8" }} position="relative">
+            <AppBar style={{ background: 'white', opacity: "0.6" }} position="relative">
                 <Box sx={{ display: "flex", padding: "0px 20px 0px 20px", justifyContent: "space-between" }}>
                     <Avatar
                         alt="Avatar"
@@ -15,9 +15,9 @@ function App() {
                         sx={{ width: 180, height: 100, padding: "0px 0px 0px 0px" }}
                     ></Avatar>
                     <Toolbar position="relative">
-                        <Link href="https://warsomewizards.com/" underline="hover" color="white" padding="0 10px"><b>Home</b></Link>
-                        <Link href="https://warsomewizards.com/team/" underline="hover" color="white" padding="0 10px"><b>Zuse</b></Link>
-                        <Link href="https://ugamart.app/" underline="hover" color="white" padding="0 10px"><b>UGA-Mart</b></Link>
+                        <Link href="https://warsomewizards.com/" underline="hover" color="black" padding="0 10px"><b>Home</b></Link>
+                        <Link href="https://warsomewizards.com/team/" underline="hover" color="black" padding="0 10px"><b>Zuse</b></Link>
+                        <Link href="https://ugamart.app/" underline="hover" color="black" padding="0 10px"><b>UGA-Mart</b></Link>
                     </Toolbar>
                 </Box>
             </AppBar>
