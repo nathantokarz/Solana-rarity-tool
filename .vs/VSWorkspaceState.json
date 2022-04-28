@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api",
     "\\client",
-    "\\client\\src"
+    "\\client\\src",
+    "\\client\\src\\views",
+    "\\client\\src\\views\\Home",
+    "\\server"
   ],
-  "SelectedNode": "\\client\\public",
+  "SelectedNode": "\\server\\index.js",
   "PreviewInSolutionExplorer": false
 }
