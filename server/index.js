@@ -6,7 +6,7 @@ path = require("path");
 dotenv.config();
 util = require("./util.js");
 require("./global.js");
-
+cors = require("cors");
 
 (async () => {
   const PORT = process.env.PORT || 3001;
@@ -14,7 +14,8 @@ require("./global.js");
   
   app.use(express.urlencoded());
   app.use(express.json());
-  
+  app.use(cors())
+
   if (process.env.NODE_ENV != 'development')
   { 
     app.use(express.static(path.join(__dirname, '../client/build')));
